@@ -15,10 +15,10 @@ title: 通过体验程序了解 ele-crud
 npm i -g ele-crud-cli
 
 # 运行程序
-crud
+npx ele-crud-cli
 ```
 
-首先运行 `npm i -g ele-crud-cli` 安装 `ele-crud-cli`，然后再运行 `ele-crud-cli` 启动程序，这时候你的控制台可以看到以下内容：
+首先运行 `npm i -g ele-crud-cli` 安装 `ele-crud-cli`，然后再运行 `npx ele-crud-cli` 启动程序，这时候你的控制台可以看到以下内容：
 
 ``` txt
 服务已启动, 打开链接 http://127.0.0.1:8800/live/ 即刻使用吧~
