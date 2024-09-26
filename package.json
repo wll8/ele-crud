@@ -1,0 +1,15 @@
+{
+  "name": "ele-crud",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "doc": "cd packages/doc && npm run docs:dev",
+    "build:doc": "cd packages/doc && npm run docs:build"
+  },
+  "pnpm": {
+    "overrides": {
+      "sass": "1.71.1"
+    }
+  }
+}
