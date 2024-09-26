@@ -14,10 +14,15 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Set up node
+      - name: Setup NODE
         uses: actions/setup-node@v4
         with:
           node-version: 18
+
+      - name: Setup PNPM
+        uses: pnpm/action-setup@v3
+        with:
+          version: 9.0.x
 
       - name: Install dependencies
         run: pnpm install
