@@ -1,0 +1,5 @@
+---
+title: method
+---
+
+method
