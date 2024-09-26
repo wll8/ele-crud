@@ -20,6 +20,6 @@ export default navbar([
   {
     text: "源码",
     icon: "https://github.com/favicon.ico",
-    link: "https://github.com/wll8/sys-shim"
+    link: "https://github.com/wll8/ele-crud"
   },
 ]);
