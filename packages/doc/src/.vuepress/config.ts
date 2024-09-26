@@ -41,13 +41,13 @@ const myPlugin = (options) => {
 export default defineUserConfig({  head: [
     [
       "script",
-      {src: `/assets/js/page.js`},
+      {src: `/ele-crud/assets/js/page.js`},
     ],
     [
       "link",
       {
         rel: `shortcut icon`,
-        href: `/favicon.ico`,
+        href: `/ele-crud/favicon.ico`,
         type: `image/x-icon`,
       },
     ],
@@ -58,7 +58,7 @@ export default defineUserConfig({  head: [
       server: {}
     },
   }),
-  base: "/",
+  base: "/ele-crud/",
 
   lang: "zh-CN",
   title: "ele-crud",
